@@ -1,0 +1,174 @@
+name: three
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0-270.0.dev
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  responsive_builder: ^0.7.1
+
+  url_launcher: ^6.0.10
+  
+  flutter_native_splash: ^2.4.1
+
+  flutter_flip_card:
+
+  provider: ^6.0.0
+ 
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^5.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets\homebgimage.png
+    - assets\Kodaikanal-768x432.jpg
+    - assets\star-ocean-photography-vivekanandapuram-kanyakumari-photo-studios-nuycmnreqf.jpg
+    - assets/OIP (1).jpeg
+    - assets\rameswaram-temple.jpg
+    - assets\OIP.jpeg
+    - assets\12280.jpg
+    - assets\image.jpg
+    - assets\tn-67-side2-removebg-preview.png
+    - assets\Madurai-meenashik.webp
+    - assets\whatsapp_logo-removebg-preview.png
+    - assets\OIP.jpg
+    - assets\travel_partner-removebg-preview.png
+    - assets\travel_care-removebg-preview.png
+    - assets\bus-removebg-preview.png
+    - assets\travel_price-removebg-preview.png
+    - assets\Package_bg.jpg
+    - assets\rameswaram_tour_package.jpg
+    - assets\MD_tour_package.jpg
+    - assets\Ooty_tour_package.png
+    - assets\KK_tour_package.jpg
+    - assets\Kodaikanal_Package_Tour.jpg
+    - assets\tiru_tour_package.jpg
+    - assets\dark-theme-16.jpg
+    - assets\rameswaram-temple2.jpg
+    - assets\kdfmgf,tf.jpg
+    - assets\Meenakshi_amman_temple_image_1.jpg
+    - assets\Meenakshi-Amman-Temple-image-2.jpg
+    - assets\Meenakshi-amman-temple-image-3.jpg
+    - assets\Gandhi_museum_image-2.jpg
+    - assets\gandhi museum madurai 3.jpg
+    - assets\Gandhi_museum-image-1.webp
+    - assets\Gandhi_museum_banner-image.jpg
+    - assets\Vishnu-temple-banner.jpg
+    - assets\Vishnu-temple-image-1.jpg
+    - assets\vishnu-temple-image-2.jpg
+    - assets\Vishnu-temple-image-3.1.jpg
+    - assets\mahaga-raja-palce-banner.jpg
+    - assets\mahaga-raja-place-image-1.jpg
+    - assets\mahaga-raja-place-image-2.png
+    - assets\mahaga-raja-place-image-3.jpg
+    - assets\vivk_kk_image-1.jpg
+    - assets\vivk_kk_image-3.webp
+    - assets\vivk_kk-image-2.webp
+    - assets\vivka_kk_image_banner.jpg
+    - assets\KK-Devi-Temple-banner.jpg
+    - assets\KK-Devi-Temple-image-1.jpg
+    - assets\KK-devi-Temple-image-2.jpg
+    - assets\KK-Devi-Temple-image-3.webp
+    - assets\KK_Tiruvni_banner.jpg
+    - assets\KK_tiruvni_image_2.jpg
+    - assets\KK_tiruvni_image_3.jpg
+    - assets\KK_Tiruvni_og_banner.jpg
+    - assets\KK_thiruvaluvar_banner.jpg
+    - assets\KK_thiruvaluvar_image_2.jpg
+    - assets\KK_thiruvaluvar_image_3.jpg
+    - assets\KK_Tiruvaluvar_image_1.webp
+    - assets\APJ_memorial-banner.webp
+    - assets\APJ_memorial-image-1.jpg
+    - assets\APJ_memorial-image-2.jpg
+    - assets\APJ_memorial-image-3.jpg
+    - assets\Dhanushkodi-image-1.webp
+    - assets\dhanushkodi-image-2.jpg
+    - assets\dhanushkodi-image-3.jpg
+    - assets\ramar-palam-banner.png
+    - assets\ramar-palam-image-1.webp
+    - assets\ramar-palam-image-2.jpg
+    - assets\ramar-palam-image-3.jpeg
+    - assets\Sitha-theertham-banner.jpg
+    - assets\Sitha-theertham-image-1.jpg
+    - assets\Sitha-theertham-image-2.webp
+    - assets\Sitha-theertham-image-3.jpg
+    - assets\Dam_dam_image-1.webp
+    - assets\dam_dam_image-2.jpg
+    - assets\Dam_dam_water_falls_banner.jpeg
+    - assets\Upper_lake_banner.jpeg
+    - assets\upper_lake_imag-2.jpg
+    - assets\upper_lake_image-1.jpg
+    - assets\upper_lake_image-3.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
